@@ -1,0 +1,81 @@
+section button#be
+{
+  display:none;
+}
+
+button#be
+{
+    display:none;
+}
+
+h1
+{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+h2
+{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h3,form
+{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+p, details,a
+{
+    font-size: 2em;
+}
+
+
+p a
+{
+    font-size:0.7em;
+}
+
+figure {
+    border: 0px #cccccc solid;
+    padding: 1px;
+   margin: 2px;
+  }
+
+  .imgs img
+{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  max-width: 30em;
+}
+
+video
+{
+  width: 100%;
+  max-width: 25em;
+}
+
+.imgs img:hover
+{
+  box-shadow: 0 0 3px 1px beige;
+}
+
+th #img1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 30em;
+}
+th #img2
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 50em;
+}
