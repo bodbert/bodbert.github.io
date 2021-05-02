@@ -6,7 +6,8 @@
     <title>Űrlap</title>
     <link id="ur" rel="stylesheet" href="urlap.css">
     <link rel="stylesheet" media="print" href="print.css">
-    <script type="text/javascript">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
         function swapStyleSheet(sheet)
         {
           document.getElementById('ur').setAttribute('href',sheet);
@@ -16,12 +17,14 @@
 <body>
 <div class="urlapbg">
         <div class="topnav" id="myTopnav">
-            <nav role="navigation">
+            <nav>
             <a href="index.html">Kezdőlap</a>
             <a href="cs.html">Counter-Strike</a>
             <a href="lol.html">League Of Legends</a>
             <a class="active" href="urlap.html">Űrlap</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars fa-lg"></i>
+            </a>
         </nav>  
         </div>
           <script>
@@ -35,7 +38,7 @@
             }
         </script>
 <h1>Saját kedvenc beküldése</h1>
-<legend>Könnyen olvasható mód</legend>
+<p>Könnyen olvasható mód</p>
 <button id="be" onclick="swapStyleSheet('visuallyimpaired.css')">Be</button>
 <button id="ki" onclick="swapStyleSheet('urlap.css')">Ki</button>
 <h2>Ha neked is van kedvenc e-sport játékod, kérlek töltsd ki az alábbi űrlapot.</h2>

@@ -6,7 +6,8 @@
     <title>Counter Strike - CS</title>
     <link id="cs" rel="stylesheet" href="cs.css">
     <link rel="stylesheet" media="print" href="print.css">
-<script type="text/javascript">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
 function swapStyleSheet(sheet)
 {
   document.getElementById('cs').setAttribute('href',sheet);
@@ -14,14 +15,15 @@ function swapStyleSheet(sheet)
 </script>
 </head>
 <body>
-  <div class="csbg">
     <div class="topnav" id="myTopnav">
-      <nav role="navigation">
+      <nav>
         <a href="index.html">Kezdőlap</a>
         <a class="active" href="cs.html"><span lang="en">Counter-Strike</span></a>
         <a href="lol.html"><span lang="en">League Of Legends</span></a>
         <a href="urlap.html">Űrlap</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars fa-lg"></i>
+      </a>
       </nav>
       </div>
       <script>
@@ -34,9 +36,9 @@ function swapStyleSheet(sheet)
             }
         }
     </script>
-<section>
+  <section>
   <h1><span lang="en">Counter Strike</span></h1>
-  <legend>Könnyen olvasható mód</legend>
+  <p>Könnyen olvasható mód</p>
   <button id="be" onclick="swapStyleSheet('visuallyimpaired.css')">Be</button>
   <button id="ki" onclick="swapStyleSheet('cs.css')">Ki</button>
 
@@ -103,13 +105,11 @@ function swapStyleSheet(sheet)
 <br><video controls poster="csvidhatter.png">
   <source src ="csvid.mp4" type="video/mp4">
   A böngésző nem támogatja a videó lejátszását.
-  </video>
-<p><a href="csvid.html" target="_blank">A videó szöveges leírásának megtekintése HTML formátumban.</a></p>
-<br>
+  </video><br>
+<a href="csvid.html" target="_blank">A videó szöveges leírásának megtekintése HTML formátumban.</a>
 </h3>
 <footer><a target="_blank"  href ="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"><h3>Steam elérhetősége</h3></a>
   <a href="#myTopnav" class="atugrolink">Ugrás az oldal tetejére</a></footer>
 </section>
-</div>
 </body>
 
