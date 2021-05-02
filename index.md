@@ -7,6 +7,7 @@
     <title>Felfutó sportunkról - Az e-sportról</title>
     <link id="home" rel="stylesheet" href="home.css">
     <link rel="stylesheet" media="print" href="print.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script>
         function swapStyleSheet(sheet)
         {
@@ -23,7 +24,9 @@
                 <a href="cs.html">Counter-Strike</a>
                 <a href="lol.html">League Of Legends</a>
                 <a href="urlap.html">Űrlap</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars fa-lg"></i>
+                </a>
             </nav>
         </div>
 

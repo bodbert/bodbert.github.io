@@ -159,6 +159,10 @@ section button:hover
     box-shadow: 3px 6px 3px black;
     border-radius: 8px;
   }
+  .topnav .icon
+  {
+    display:none;
+  }
 
 #atugrolink a:focus, a:active
 {
